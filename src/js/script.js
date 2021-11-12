@@ -1,1 +1,1 @@
-@@include('start.js')
+@@include('hum.js')

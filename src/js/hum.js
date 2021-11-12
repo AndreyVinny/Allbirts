@@ -19,4 +19,3 @@ function closeMenu () {
     menu.forEach(elem => { elem.classList.toggle('active')})
     body.classList.toggle('active');
 }
-
