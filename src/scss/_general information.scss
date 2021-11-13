@@ -82,6 +82,16 @@ h2 {
   margin-top: 140px;
 }
 
+.favorit_fon {
+    background-image: url(../img/favorit_fon.jpg);
+}
+.season_fon {
+    background-image: url(../img/seadons_fon.jpg);
+}
+.arrivals_fon {
+  background-image: url(../img/arrivals_fon.jpg);
+}
+
 
 @mixin flex ($fd, $jc, $ai, $fw) {
     display: flex;

@@ -11,14 +11,11 @@ const swiper = new Swiper('.season-slider', {
       enabled: true,
       onlyInViewport: true,
   },
-  slidesPerView: 1,
-  // spaceBetween: 10,
   breakpoints: {
     480: {
       slidesPerView: 1,
       spaceBetween: 100,
     },
-    // when window width is >= 640px
     720: {
       slidesPerView: 2,
       spaceBetween: 80,

@@ -421,6 +421,18 @@ h2 {
   margin-top: 140px;
 }
 
+.favorit_fon {
+  background-image: url(../img/favorit_fon.jpg);
+}
+
+.season_fon {
+  background-image: url(../img/seadons_fon.jpg);
+}
+
+.arrivals_fon {
+  background-image: url(../img/arrivals_fon.jpg);
+}
+
 .container {
   width: 1440px;
   margin: 0 auto;
@@ -848,10 +860,6 @@ h2 {
   margin: 0px 24px;
 }
 
-.favorit_fon {
-  background-image: url(../img/favorit_fon.jpg);
-}
-
 @media (max-width: 1440px) {
   .favorit_cart_info {
     padding: 17px 20px;
@@ -1040,10 +1048,6 @@ h2 {
   -webkit-transform: rotate(39deg);
       -ms-transform: rotate(39deg);
           transform: rotate(39deg);
-}
-
-.season_fon {
-  background-image: url(../img/seadons_bg.jpg);
 }
 
 @media (max-width: 1440px) {
