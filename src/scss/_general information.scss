@@ -1,6 +1,9 @@
-$color_text_main: #000;
+$color_text_main: #212A2F;
 $color_spec_first: #fff;
-$color_text_spec: #FF4A32;
+
+$color_text_spec: #b37755;
+$color_text_spec_first: #D3D4D5;
+
 
 
 * {
@@ -22,6 +25,28 @@ ul {
 }
 a {
     text-decoration: none;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    color: $color_text_main;
+    background: $color_spec_first;
+    padding: 17px 32px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    transition: all .3s ease-out;
+    font-size: 14px;
+    &:hover,
+     :focus,
+     :active {
+         background: $color_text_main;
+         color: $color_spec_first;
+     }
 }
 
 @mixin flex ($fd, $jc, $ai, $fw) {

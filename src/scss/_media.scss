@@ -26,6 +26,11 @@ $mobile-mini: 320px;
     .container{
         width: 420px;
     }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 12px;
+    }
 }
 
 @media (max-width: $mobile) {
