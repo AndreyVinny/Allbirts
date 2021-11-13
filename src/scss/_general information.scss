@@ -48,6 +48,40 @@ h2 {
          color: $color_spec_first;
      }
 }
+.cont_top {
+    text-align: center;
+    padding-top: 50px;
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        padding-bottom: 22px;
+    }
+    p {
+      font-size: 16px;
+      padding-bottom: 26px;
+    }
+    .btn_black {
+        color: $color_spec_first;
+        background: $color_text_main;
+        margin: 0px 12px 100px 0px;
+
+        &:hover,
+         :focus,
+         :active {
+           background: $color_text_spec;
+         }
+    }
+
+}
+
+.bg_fon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 542px;
+  margin-top: 140px;
+}
+
 
 @mixin flex ($fd, $jc, $ai, $fw) {
     display: flex;
