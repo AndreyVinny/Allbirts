@@ -12,6 +12,10 @@ const swiper = new Swiper('.season-slider', {
       onlyInViewport: true,
   },
   breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 150,
+    },
     480: {
       slidesPerView: 1,
       spaceBetween: 100,

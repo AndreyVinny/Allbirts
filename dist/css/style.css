@@ -365,78 +365,6 @@ a {
   text-decoration: none;
 }
 
-h2 {
-  font-size: 32px;
-  font-weight: bold;
-}
-
-.btn {
-  display: inline-block;
-  padding: 17px 32px;
-  border-radius: 2px;
-  text-transform: uppercase;
-  -webkit-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  font-size: 14px;
-}
-
-.btn_white {
-  color: #212A2F;
-  background: #fff;
-}
-.btn_white:hover,
-.btn_white :focus,
-.btn_white :active {
-  background: #212A2F;
-  color: #fff;
-}
-
-.btn_black {
-  color: #fff;
-  background: #212A2F;
-  margin: 0px 12px 100px 0px;
-}
-.btn_black:hover,
-.btn_black :focus,
-.btn_black :active {
-  background: #b37755;
-}
-
-.cont_top {
-  text-align: center;
-  padding-top: 50px;
-}
-.cont_top h2 {
-  font-size: 32px;
-  font-weight: bold;
-  padding-bottom: 22px;
-}
-.cont_top p {
-  font-size: 16px;
-  padding-bottom: 26px;
-}
-
-.bg_fon {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 542px;
-  margin-top: 140px;
-}
-
-.favorit_fon {
-  background-image: url(../img/favorit_fon.jpg);
-}
-
-.season_fon {
-  background-image: url(../img/seadons_fon.jpg);
-}
-
-.arrivals_fon {
-  background-image: url(../img/arrivals_fon.jpg);
-}
-
 .container {
   width: 1440px;
   margin: 0 auto;
@@ -982,11 +910,6 @@ h2 {
     height: 200px;
   }
 }
-.main_cont h3 {
-  padding-bottom: 24px;
-  font-size: 32px;
-}
-
 .swiper {
   padding: 0px 37px;
 }
@@ -1111,6 +1034,89 @@ h2 {
     padding: 0px 10px;
   }
 }
+@media (max-width: 420px) {
+  .swiper_blox {
+    height: 380px;
+    width: 195px;
+  }
+}
+.main_cont h3 {
+  padding-bottom: 24px;
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  padding: 17px 32px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  font-size: 14px;
+}
+
+.btn_white {
+  color: #212A2F;
+  background: #fff;
+}
+.btn_white:hover,
+.btn_white :focus,
+.btn_white :active {
+  background: #212A2F;
+  color: #fff;
+}
+
+.btn_black {
+  color: #fff;
+  background: #212A2F;
+  margin: 0px 12px 100px 0px;
+}
+.btn_black:hover,
+.btn_black :focus,
+.btn_black :active {
+  background: #b37755;
+}
+
+.cont_top {
+  text-align: center;
+  padding-top: 50px;
+}
+.cont_top h2 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 22px;
+}
+.cont_top p {
+  font-size: 16px;
+  padding-bottom: 26px;
+}
+
+.bg_fon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 542px;
+  margin-top: 140px;
+}
+
+.favorit_fon {
+  background-image: url(../img/favorit_fon.jpg);
+}
+
+.season_fon {
+  background-image: url(../img/seadons_fon.jpg);
+}
+
+.arrivals_fon {
+  background-image: url(../img/arrivals_fon.jpg);
+}
+
 .help {
   margin-top: 140px;
   margin-bottom: 48px;
