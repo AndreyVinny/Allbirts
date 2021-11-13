@@ -34,20 +34,35 @@ h2 {
 
 .btn {
     display: inline-block;
-    color: $color_text_main;
-    background: $color_spec_first;
     padding: 17px 32px;
     border-radius: 2px;
     text-transform: uppercase;
     transition: all .3s ease-out;
     font-size: 14px;
+
+}
+
+.btn_white {
+  color: $color_text_main;
+  background: $color_spec_first;
+  &:hover,
+   :focus,
+   :active {
+       background: $color_text_main;
+       color: $color_spec_first;
+   }
+}
+.btn_black {
+    color: $color_spec_first;
+    background: $color_text_main;
+    margin: 0px 12px 100px 0px;
     &:hover,
      :focus,
      :active {
-         background: $color_text_main;
-         color: $color_spec_first;
+       background: $color_text_spec;
      }
 }
+
 .cont_top {
     text-align: center;
     padding-top: 50px;
@@ -60,18 +75,6 @@ h2 {
       font-size: 16px;
       padding-bottom: 26px;
     }
-    .btn_black {
-        color: $color_spec_first;
-        background: $color_text_main;
-        margin: 0px 12px 100px 0px;
-
-        &:hover,
-         :focus,
-         :active {
-           background: $color_text_spec;
-         }
-    }
-
 }
 
 .bg_fon {
