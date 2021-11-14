@@ -30,13 +30,13 @@
 
 .help_info {
   @include flex (row, center, center, nowrap);
+  margin-top: 24px;
   p {
     color: #74797C;
     margin-bottom: 0px;
     font-size: 14px;
   }
 }
-
 
 @media (max-width: $pc){
   .help_form {
@@ -46,7 +46,6 @@
       }
   }
 }
-
 
 @media (max-width: $tablet){
   .help_form {

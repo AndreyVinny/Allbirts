@@ -15,6 +15,7 @@ h2 {
 .btn_white {
   color: $color_text_main;
   background: $color_spec_first;
+  margin-bottom: 10px;
   &:hover,
    :focus,
    :active {
@@ -26,7 +27,7 @@ h2 {
 .btn_black {
     color: $color_spec_first;
     background: $color_text_main;
-    margin: 0px 12px 100px 0px;
+    margin: 0px 12px 10px 0px;
     &:hover,
      :focus,
      :active {
@@ -56,6 +57,10 @@ h2 {
   margin-top: 140px;
 }
 
+.main_cont {
+    margin-top: 100px;
+}
+
 .favorit_fon {
     background-image: url(../img/favorit_fon.jpg);
 }
@@ -64,4 +69,16 @@ h2 {
 }
 .arrivals_fon {
   background-image: url(../img/arrivals_fon.jpg);
+}
+
+@media (max-width: $tablet){
+  .bg_fon {
+    height: 350px;
+  }
+}
+
+@media (max-width: $mobile){
+  .bg_fon {
+    height: 300px;
+  }
 }

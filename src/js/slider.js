@@ -11,6 +11,9 @@ const swiper = new Swiper('.season-slider', {
       enabled: true,
       onlyInViewport: true,
   },
+  mousewheel: {
+      sensitivity: 1,
+  },
   breakpoints: {
     320: {
       slidesPerView: 1,
@@ -34,9 +37,3 @@ const swiper = new Swiper('.season-slider', {
     },
   },
 })
-
-// $pc: 1440px;
-// $notebook: 900px;
-// $tablet: 720px;
-// $mobile: 420px;
-// $mobile-mini: 320px;

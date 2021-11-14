@@ -648,7 +648,7 @@ a {
 }
 @media (max-width: 420px) {
   .header_main_text {
-    bottom: -260px;
+    bottom: -210px;
   }
 }
 .favorit {
@@ -1064,6 +1064,7 @@ h2 {
 .btn_white {
   color: #212A2F;
   background: #fff;
+  margin-bottom: 10px;
 }
 .btn_white:hover,
 .btn_white :focus,
@@ -1075,7 +1076,7 @@ h2 {
 .btn_black {
   color: #fff;
   background: #212A2F;
-  margin: 0px 12px 100px 0px;
+  margin: 0px 12px 10px 0px;
 }
 .btn_black:hover,
 .btn_black :focus,
@@ -1105,6 +1106,10 @@ h2 {
   margin-top: 140px;
 }
 
+.main_cont {
+  margin-top: 100px;
+}
+
 .favorit_fon {
   background-image: url(../img/favorit_fon.jpg);
 }
@@ -1117,6 +1122,16 @@ h2 {
   background-image: url(../img/arrivals_fon.jpg);
 }
 
+@media (max-width: 720px) {
+  .bg_fon {
+    height: 350px;
+  }
+}
+@media (max-width: 420px) {
+  .bg_fon {
+    height: 300px;
+  }
+}
 .help {
   margin-top: 140px;
   margin-bottom: 48px;
@@ -1161,6 +1176,7 @@ h2 {
           align-items: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  margin-top: 24px;
 }
 .help_info p {
   color: #74797C;
